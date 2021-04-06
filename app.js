@@ -17,16 +17,45 @@
 // git push -u origin main
 
 // declaration assignment operator assign a value
-var firstName = "code";
-var lastName = "x";
+// var firstName = "code";
+// var lastName = "x";
 
-var intro = "hi my name is " + firstName + lastName;
-console.log(intro);
+// var intro = "hi my name is " + firstName + lastName;
+// console.log(intro);
 
 // ==,  === (comparison operator)
-var val1 = 7;
-var val2 = "8";
-console.log(val1 == val2);
+// var val1 = 7;
+// var val2 = "8";
+// console.log(val1 == val2);
 
 // == (checks only asigned value)
 // == (checks both asigned value and datatype)
+
+// Boolean 
+
+// var status = "false";
+// console.log(typeof status);
+
+//console.log( 1 == true);
+
+// var value = null;
+// console.log(value);
+
+// var name1;
+// console.log(typeof name1);
+
+//console.log(null == undefined);
+
+// Arithmetic Operator
+// var x = 14;
+// var y = "hi";
+// var sub = x - y;
+// console.log(typeof sub);
+
+
+// var x = 2*2+2;
+// var y = 2*(2+2)
+// console.log(x, y);
+
+var name = ["komal",true, 2, null, undefined];
+console.log(typeof name);
