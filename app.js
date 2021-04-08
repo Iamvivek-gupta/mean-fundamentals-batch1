@@ -3,8 +3,8 @@
 // ii) can not start with number
 // iii) can't use let var const keyword
 
-let name = "codex";
-console.log(name);
+//let name = "codex";
+//console.log(name);
 
 
 // https://github.com/Iamvivek-gupta/mean-fundamentals-batch1
@@ -15,3 +15,67 @@ console.log(name);
 // git branch -M main
 // git remote add origin https://github.com/Iamvivek-gupta/mean-fundamentals-batch1.git
 // git push -u origin main
+  
+//let firstname="vijay"
+//let lastName="Shirsath"
+
+
+// var val1 = 122;
+//  var val2 = "67";
+//  console.log(val1 == val2);
+
+
+//  var x = 12;
+// var y = "hellllo";
+//  var sub = x - y;
+//  console.log(typeof sub);
+//  console.log(20 <=20)
+
+
+ // javascript if else statement  is used to execute code wether condition true or false
+// 1. if statement
+      //  if(expression)
+      //{      content to be executed
+//  }
+//  else{
+
+                    
+//  }
+    //  if(-5 < -6)
+    //  {
+    //          console.log("hello")
+    //  } 
+
+     // sytax
+// 2. if else statement
+
+// if(expression){
+     
+//     content to be excuted
+
+// }
+// else{
+//       content to be executed
+// }
+
+
+// if(-5< -6){
+//     console.log("hallo")
+// }
+// else{
+//     console.log("haloo vijay")
+// }
+
+//3 else if statement
+
+//   if(expression)
+//   { 
+//        content to be executed
+//   }else if{
+//         content to be executed
+//   }
+//   else{
+//       content to be executed
+//   }
+
+console.log(  3%2);
