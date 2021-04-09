@@ -121,16 +121,35 @@ if (a%2===0){
 
 
 
-var a=20;  
-if(a==10){  
-    console.log("a is equal to 10");  
-}  
-else if(a==15){  
-    console.log("a is equal to 15");  
-}  
-else if(a==20){  
-    console.log("a is equal to 20");  
-}  
-else{  
-    console.log("a is not equal to 10, 15 or 20");  
-} 
+// var a=20;  
+// if(a==10){  
+//     console.log("a is equal to 10");  
+// }  
+// else if(a==15){  
+//     console.log("a is equal to 15");  
+// }  
+// else if(a==20){  
+//     console.log("a is equal to 20");  
+// }  
+// else{  
+//     console.log("a is not equal to 10, 15 or 20");  
+// } 
+
+
+// Logical Operator (&& , ||)
+//console.log(10==="10" || 30=="30");
+// operand
+// AND Operator
+// OR Operator
+// NOT Operator (!)
+// console.log(!false);
+
+var arr= [1,2,3,4];
+// arr[5] =8;
+// arr[4]=15;
+
+//console.log(arr.indexOf(19));
+// var sum = arr[0] + arr[1] +arr[2] + arr[3];
+// console.log(sum);
+
+
