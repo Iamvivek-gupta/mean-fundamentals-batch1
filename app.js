@@ -144,12 +144,44 @@ if (a%2===0){
 // NOT Operator (!)
 // console.log(!false);
 
-var arr= [1,2,3,4];
+// var arr= [1,2,3,4];
 // arr[5] =8;
 // arr[4]=15;
 
 //console.log(arr.indexOf(19));
 // var sum = arr[0] + arr[1] +arr[2] + arr[3];
 // console.log(sum);
+
+// arr.push(3,3,4,5,6,7,8);
+// console.log(arr);
+
+// var arr= [1,2,3,4];
+// var mul = 1;
+// for(i=0; i< arr.length; i=i+1){
+//     console.log("index here",i);
+//     console.log("value here", arr[i]);
+//     console.log("mul value here", mul);
+//     mul = mul * arr[i];
+//     console.log("product here",mul);
+// }
+// console.log(mul);
+
+// i=0 arr[0]= 1 result = 0 +1 =1;
+// i=1 arr[1]= 2 result = 1 +2 =3;
+// i=2 arr[2]= 3 result = 3 +3 =6;
+// i=3 arr[3]= 4 result = 6 +4 =10;
+var b = [1,2,3,4,5,6,7,8];
+var even = [];
+for(i=0; i< b.length; i++){
+    if(b[i]%2 !==0){
+        even.push(b[i])
+    }
+}
+
+console.log(even);
+
+// HW
+var c = [1,2,3,4,5,6];
+// output var reverse = [6,5,4,3,2,1]
 
 
