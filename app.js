@@ -112,12 +112,12 @@ if(-5 < -6){
 //     console.log("hallo vedant");
 // }
 // 2,4,6,8,10
-var a = 4;
-if (a%2===0){
-    console.log("given number is even " + a);
-} else {
-    console.log("given number is odd " + a);
-}
+// var a = 4;
+// if (a%2===0){
+//     console.log("given number is even " + a);
+// } else {
+//     console.log("given number is odd " + a);
+// }
 
 
 
@@ -170,18 +170,45 @@ if (a%2===0){
 // i=1 arr[1]= 2 result = 1 +2 =3;
 // i=2 arr[2]= 3 result = 3 +3 =6;
 // i=3 arr[3]= 4 result = 6 +4 =10;
-var b = [1,2,3,4,5,6,7,8];
-var even = [];
-for(i=0; i< b.length; i++){
-    if(b[i]%2 !==0){
-        even.push(b[i])
-    }
-}
+// var b = [1,2,3,4,5,6,7,8];
+// var even = [];
+// for(i=0; i< b.length; i++){
+//     if(b[i]%2 !==0){
+//         even.push(b[i])
+//     }
+// }
 
-console.log(even);
+// console.log(even);
 
 // HW
-var c = [1,2,3,4,5,6];
-// output var reverse = [6,5,4,3,2,1]
+// var c = [1,2,3,4,5,6];
+// console.log(c.push(12));
+// console.log(c);
 
+//Array
+// pop 
+// var d = [1,2,3,4,5,6];
+// console.log(d.pop());
+// console.log(d);
+
+//shift
+// var sh  = [4,5,6,7,8,9];
+// console.log(sh.shift());
+// console.log(sh);
+
+// unshift
+// var us = [1,2,3,4,5,6];
+// console.log(us.unshift(12,13,14));
+// console.log(us);
+// WAP to find factorial of a number
+var n = 3;
+console.log("hallo factorial");
+var factorial = 1;
+for(i=n; i>=1; i--){
+    factorial = factorial * i;
+}
+
+console.log(factorial);
+
+//var arr = [1,2,3,4,5,6]
 
