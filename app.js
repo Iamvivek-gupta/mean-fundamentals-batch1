@@ -80,19 +80,46 @@
 
 //console.log(  3%2);
 
-var a=20;  
-if(a==10){  
-    console.log("a is equal to 10");  
-}  
-else if(a==15){  
-    console.log("a is equal to 15");  
-}  
-else if(a==20){  
-    console.log("a is equal to 20");  
-}  
-else{  
-    console.log("a is not equal to 10, 15 or 20");  
-} 
+// var a=20;  
+// if(a==10){  
+//     console.log("a is equal to 10");  
+// }  
+// else if(a==15){  
+//     console.log("a is equal to 15");  
+// }  
+// else if(a==20){  
+//     console.log("a is equal to 20");  
+// }  
+// else{  
+//     console.log("a is not equal to 10, 15 or 20");  
+// } 
 
 
 // output is a is equal to 20
+
+//AND OPERATOR
+
+//console.log(10=="10" && 30=="30");
+//if both opernad true Then result is true otherwise False
+//
+//OR OPRETOR
+//  if either opernd true it will return true
+// if both operand  false it will return true
+// 
+//NOT OPERATOR(!  )
+
+var c = [1,2,3,4,5,6];
+ //c.reverse();
+ //console.log(c);
+
+ var d=[];
+   for(let i=c.length-1;i>=0;i--)
+   {
+     
+   console.log(c[i]);
+         
+
+   }
+
+
+
