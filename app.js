@@ -78,9 +78,9 @@
         //   }
 
 
-if(-5 < -6){
-    console.log("hallo vijay");
-}    
+//if(-5 < -6){
+  //  console.log("hallo vijay");
+//}    
 
 // 2. if else statement
 // syntax
@@ -116,28 +116,27 @@ if(-5 < -6){
 //     console.log("hallo vedant");
 // }
 // 2,4,6,8,10
-var a = 4;
-if (a%2===0){
-    console.log("given number is even " + a);
-} else {
-    console.log("given number is odd " + a);
-}
+//var a = 4;
+//if (a%2===0){
+  //  console.log("given number is even " + a);
+//} else {
+  //  console.log("given number is odd " + a);
 
 
 
-var a=20;  
-if(a==10){  
-    console.log("a is equal to 10");  
-}  
-else if(a==15){  
-    console.log("a is equal to 15");  
-}  
-else if(a==20){  
-    console.log("a is equal to 20");  
-}  
-else{  
-    console.log("a is not equal to 10, 15 or 20");  
-} 
+//var a=20;  
+//if(a==10){  
+ //   console.log("a is equal to 10");  
+//}  
+//else if(a==15){  
+  //  console.log("a is equal to 15");  
+//}  
+//else if(a==20){  
+  //  console.log("a is equal to 20");  
+//}  
+//else{  
+  //  console.log("a is not equal to 10, 15 or 20");  
+//} 
 //>>>>>>> e9842a4dded4429ed207286bd5a60a0ac6de08bb
 //var b = [];
 //b.push(1,2,3)
@@ -152,10 +151,22 @@ else{
 
 //console.log(even);
 
+//PUSH method adds one or more element for the end of an array. 
+//POP method removes the last element from an array, and returns that removed  element, this method also change the length of an array. 
+//shift removes the first element from an array and return the moved element, this method also change the length of an array.
+// un shift method add one or more element to the begining of an array. and return the new lenght of an array
 
-arr = [1,2,3,4,5,6]
+var arr = [1,4,5,9,7,6,2];
 
-console.log(reverse("arr"));
 
+var max = arr[0];
+
+for(var i=0; i< arr.length; i++){
+    if (arr[i] >= max) {
+        max = arr[i];
+           }
+}
+
+console.log(max);
 
 
