@@ -284,15 +284,61 @@ console.log(max);
 // console.log(us.unshift(12,13,14));
 // console.log(us);
 // WAP to find factorial of a number
-var n = 3;
-console.log("hallo factorial");
-var factorial = 1;
-for(i=n; i>=1; i--){
-    factorial = factorial * i;
-}
+// var n = 3;
+// console.log("hallo factorial");
+// var factorial = 1;
+// for(i=n; i>=1; i--){
+//     factorial = factorial * i;
+// }
 
-console.log(factorial);
+// console.log(factorial);
 
 //var arr = [1,2,3,4,5,6]
 >>>>>>> 002b288d2083dd6da715e34682d934265f838c2a
+
+
+// var number = 0;
+// if(number >= 0){
+//     if(number == 0){
+//         console.log(number + " is Zero");
+//     } else{
+//         console.log(number + " is positive");
+//     }
+// } else{
+//     console.log(number + " is Negative");
+// }
+
+
+// 12 = 1,2,3,4,6,12
+// let number = 20;
+// let factor = [];
+// for(let i = 1; i <= number; i++ ){
+//     if(number % i === 0){
+//         factor.push(i);
+//     }
+// }
+// console.log(factor);
+
+// fuction
+// getName(4, 6);
+// function getName(a,b){
+//     let sum = a + b;
+//     console.log(sum);
+// }
+
+
+// let getname = function(a,b){
+//     let sum = a + b;
+//     console.log(sum);
+// }
+
+function factorial(n){
+    var fact = 1;
+    for(i=n; i>= 1; i--){
+        fact = fact * i
+    }
+    console.log(fact);
+}
+
+factorial(7)
 
