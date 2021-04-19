@@ -74,9 +74,9 @@
         //   }
 
 
-if(-5 < -6){
-    console.log("hallo vijay");
-}    
+// if(-5 < -6){
+//     console.log("hallo vijay");
+// }    
 
 // 2. if else statement
 // syntax
@@ -248,13 +248,52 @@ if(-5 < -6){
 //     console.log(sum);
 // }
 
-function factorial(n){
-    var fact = 1;
-    for(i=n; i>= 1; i--){
-        fact = fact * i
-    }
-    console.log(fact);
-}
+// function factorial(n){
+//     var fact = 1;
+//     for(i=n; i>= 1; i--){
+//         fact = fact * i
+//     }
+//     console.log(fact);
+// }
 
-factorial(7)
+// factorial(7)
 
+// var name = "vijay is smart boy";
+// console.log(name.length);
+// var a = 5;
+// var b = 8;
+// a = a+b;
+// b = a - b;
+// a = a - b;
+// console.log(a,b);
+// var a = [1,2,3,4];
+// [a[0], a[1], a[2],a[3]] = [a[1], a[0],a[3], a[2]];
+// console.log(a);
+// var d = [1,3,4,6,7,3,3,54,6,7];
+// console.log(d.includes(9));
+
+
+
+// javascript Object
+// how to check an object is empty
+
+// properties and keys are same.
+// var person = {
+//         name: "vijay",
+//         age: 25,
+//         city: "nasik"
+// }
+// console.log(Object.keys(person));
+// console.log(Object.values(person));
+// let properties = Object.keys(person);
+// console.log(properties.length);
+
+// person.age = 20
+// person['age'] = 30
+// person.gender = "male";
+// delete person.gender;
+// console.log(person);
+
+// var person = ["vijay", 25, {city: "nashik"}]
+// person[2] = 3;
+// console.log(person);
