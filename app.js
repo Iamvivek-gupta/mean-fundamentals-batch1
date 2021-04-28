@@ -3,82 +3,68 @@
 // ii) can not start with number
 // iii) can't use let var const keyword
 
-<<<<<<< HEAD
-//let name = "codex";
+//  let name = "codex";
 //console.log(name);
-=======
-// let name = "codex";
-// console.log(name);
->>>>>>> 002b288d2083dd6da715e34682d934265f838c2a
-
-
 // https://github.com/Iamvivek-gupta/mean-fundamentals-batch1
 
-//  git init
+// git init
 // git add README.md
 // git commit -m "first commit"
 // git branch -M main
 // git remote add origin https://github.com/Iamvivek-gupta/mean-fundamentals-batch1.git
 // git push -u origin main
-<<<<<<< HEAD
-//
 
 
 
-// condition
-//java scrip if else statement is used to execute code wether condition is true or false
+//  condition
+//  java scrip if else statement is used to execute code wether condition is true or false
 
 //     1. if statement
 
 //      if(expression)
 //     {
- //   content to be executed
-///    }
+//   content to be executed
+//     }
 
-//if (-5 >-6){
-    //console.log("hello vijay");
-//}
+//  if (-5 >-6){
+//   console.log("hello vijay");
+//    }
 
-/// if Else statement
+// if Else statement
 
 // if(expression)
-//{
- //   content to be executed
-//}else
-//{
+// {
+//   content to be executed
+// }else
+// {
     //content to be executed
-//}
-
-//if (-5 < -6)
-//{
-    //console.log("hello vijay");
+// }
+// example
+// if (-5 < -6)
+// {
+//console.log("hello vijay");
 //  }
 //else{
-  //  console.log("hello  codex");
+//  console.log("hello  codex");
 //}
 
 //   3. else if statement
-//if (expression){
-   // conetct to be executed
+// if (expression){
+// conetct to be executed
 //}else if(expression)
 //{
-  //  contect to be executed
-
+//  contect to be executed
+//}
+// else {
+//  content to be executed
 //}
 
-//else {
-  //  content to be executed
-//}
-
-//% remainder and /n
- ///2,4,6,8,10 
-
+// % remainder and /n
+//2,4,6,8,10 
 //evan and odd 
 //var a=3 
 //node
-
 //// """"""Home work"""""""""""""
-=======
 
 // declaration assignment operator assign a value
 // var firstName = "code";
@@ -138,9 +124,9 @@
         //   }
 
 
-if(-5 < -6){
-    console.log("hallo vijay");
-}    
+//if(-5 < -6){
+   // console.log("hallo vijay");
+//}    
 
 // 2. if else statement
 // syntax
@@ -184,8 +170,6 @@ if(-5 < -6){
 // }
 
 
->>>>>>> 002b288d2083dd6da715e34682d934265f838c2a
-
 // var a=20;  
 // if(a==10){  
 //     console.log("a is equal to 10");  
@@ -198,24 +182,13 @@ if(-5 < -6){
 // }  
 // else{  
 //     console.log("a is not equal to 10, 15 or 20");  
-<<<<<<< HEAD
 // }
 
 
 
 
 
-var array = [10, 25, 2, 150, 38, 125, 89, 32];
-var max= [0];
-
-for (var i=0; i<=array.length;i++){
-    if (array[i]>=max) {
-        var max=array[i];
-    }
-}
-
-console.log(max);
-=======
+//
 // } 
 
 
@@ -294,7 +267,6 @@ console.log(max);
 // console.log(factorial);
 
 //var arr = [1,2,3,4,5,6]
->>>>>>> 002b288d2083dd6da715e34682d934265f838c2a
 
 
 // var number = 0;
