@@ -297,3 +297,23 @@
 // var person = ["vijay", 25, {city: "nashik"}]
 // person[2] = 3;
 // console.log(person);
+
+// var a = [1,2,3,1,3,4,5,6,4];
+// console.log([...new Set(a)]);
+// var x = [1, -4, 6.1, 0.1, 2.6, 5, -2, 1.9, 6, 8.75, -7, 5]; 
+// var positiveEle = [];
+// for(let i = 0; i < x.length; i++){
+//         if(x[i]>0 && x[i]%1===0){
+//                 positiveEle.push(x[i]);
+//         }
+// }
+// console.log(positiveEle);
+
+var a = [1,2,3,1,3,4,5,6,4];
+var b = [];
+for(let i = 0; i < a.length; i++){
+        if(b.indexOf(a[i]) === -1){
+                b.push(a[i])
+        }
+}
+console.log(b);
