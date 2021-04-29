@@ -188,7 +188,17 @@
 
 
 
-//
+//var array = [10, 25, 2, 150, 38, 125, 89, 32];
+//var max= [0];
+
+//for (var i=0; i<=array.length;i++){
+//    if (array[i]>=max) {
+//        var max=array[i];
+  //  }
+//}
+
+//console.log(max);
+
 // } 
 
 
@@ -304,13 +314,28 @@
 //     console.log(sum);
 // }
 
-function factorial(n){
-    var fact = 1;
-    for(i=n; i>= 1; i--){
-        fact = fact * i
-    }
-    console.log(fact);
-}
+//function factorial(n){
+   // var fact = 1;
+   // for(i=n; i>= 1; i--){
+   //     fact = fact * i
+  //  }
+  //  console.log(fact);
 
-factorial(7)
+//}
 
+//factorial(7)
+//var name="komal";
+
+//fuction(name)
+//{
+ // console.log(name+"join sucessfully");
+//}
+//name()
+//Name("komal");
+ function Name()
+ {
+   var s='komal';
+  
+  console.log(s + " join succesfully ");
+ }
+ Name()
