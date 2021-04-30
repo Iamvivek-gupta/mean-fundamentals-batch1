@@ -55,3 +55,27 @@
 
 // a.sort( (a,b) => b - a )
 // console.log(a);
+
+// function login(username){
+//     console.log(username + " login succefully");
+// }
+ 
+// login("Vijay");
+
+// let login = (name) => console.log(name + " login succefully");
+
+// login("viajy")
+
+
+// let area = (width, height) =>  width * height;
+
+// let total = area(3,9);
+// console.log(total);
+
+// let sum = (num1, num2) => num1 + num2;
+// let result = sum(4, "vivek");
+// console.log(result);
+let textformat = (str) => str[0].toUpperCase() + str.slice(1);
+
+
+console.log(textformat("komal"));// Vijay
