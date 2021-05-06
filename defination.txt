@@ -1,0 +1,36 @@
+Java script inbuild method
+
+1.cancat():-
+      this method combines to array together
+      Eg. var a=[1,2,3,4,5];
+         var b=[6,7,8,9];
+         var combine=a.concat(b);
+         console.log(combine);
+
+         
+ 2.push();-  
+        this method adds item to the end of an array and changes the original array and
+         its retrun the modifired lenght
+        Eg. var a1 = [1,2,3,4,5]; 
+        console.log("original element" ,a1);
+        a1.push(11,12,13,14);
+        console.log("after modifired element ",a1);
+
+        output:-9(lenght of array)
+ 3.pop():-
+       this method removes last element from the array and its retrun the removed element
+        Eg. var a1 = [1,2,3,4,5]; 
+        console.log("original element" ,a1);
+        console.log("after the changes",a1.pop(5));
+
+        Output: 5 (removed element)
+
+  4.indexof():-this method retrun the array of indexof
+          like[0,1,2,3] starting from 0
+           E.g var a1 = [1,2,3,4,5]; 
+               console.log(a1.indexOf(5));
+
+               Output: 4
+
+
+                    

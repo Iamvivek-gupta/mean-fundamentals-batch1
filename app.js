@@ -332,10 +332,90 @@
 //}
 //name()
 //Name("komal");
- function Name()
- {
-   var s='komal';
+ //function Name()
+ //{
+  // var s='komal';
   
-  console.log(s + " join succesfully ");
- }
- Name()
+ // console.log(s + " join succesfully ");
+ //}
+ //Name()
+
+
+/* check if all object items having expeirence more than 10 years */
+
+ const doctors = [
+	{
+	  name: 'Doctor-1', state: 'Delhi', years: 12, coe: 'General',
+	},
+	{
+	  name: 'Doctor-2', state: 'Telangana', years: 15, coe: 'heart',
+	},
+	{
+	  name: 'Doctor-3', state: 'Delhi', years: 25, coe: 'general',
+	},
+	{
+	  name: 'Doctor-4', state: 'Mumbai', years: 21, coe: 'skin',
+	},
+	{
+	  name: 'Doctor-5', state: 'Delhi', years: 6, coe: 'skin',
+	},
+	{
+	  name: 'Doctor-6', state: 'Mumbai', years: 14, coe: 'lungs',
+	},
+	{
+	  name: 'Doctor-7', state: 'Delhi', years: 23, coe: 'heard'}
+  ]
+
+  var hightestyears=[];
+  
+    for(let i=0;i<doctors.length;i++)
+{
+  if(doctors[1].years< 10){
+    hightestyears.push(doctors[i].name)
+  }
+}
+  
+  console.log(doctors);
+
+
+
+  
+
+/* check if atleast one object item having expeirence less than 5 years */
+
+const doctors1 = [
+	{
+	  name: 'Doctor-1', state: 'Delhi', years: 12, coe: 'General',
+	},
+	{
+	  name: 'Doctor-2', state: 'Telangana', years: 15, coe: 'heart',
+	},
+	{
+	  name: 'Doctor-3', state: 'Delhi', years: 25, coe: 'general',
+	},
+	{
+	  name: 'Doctor-4', state: 'Mumbai', years: 21, coe: 'skin',
+	},
+	{
+	  name: 'Doctor-5', state: 'Delhi', years: 6, coe: 'skin',
+	},
+	{
+	  name: 'Doctor-6', state: 'Mumbai', years: 14, coe: 'lungs',
+	},
+	{
+	  name: 'Doctor-7', state: 'Delhi', years: 23, coe: 'heard'}
+  ];
+
+  let a=[];
+
+  for(let i=0; i<doctors1.length; i++)
+  {
+    if(doctors1[i].years < 10){
+      a.push(doctors1[i].name)
+    }
+
+  }
+console.log(a);
+
+var a1 = [1,2,3,4,5]; 
+ console.log(a1.indexOf(5));
