@@ -3,4 +3,4 @@ push() : this method adds item to the end of an array , and changes the original
          push method return modified array size and lengh.
 
  pop() : this method removes the element.
- indexOf() :        
+ indexOf() : it give perticular index details.       
