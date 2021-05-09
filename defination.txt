@@ -5,3 +5,26 @@ git commit -m "message"
 git push
 
 git checkout branchname
+
+
+Datatype in Javascript
+1. String
+2. Number
+3. undefined
+4. object
+5. Boolean
+(==) it checks only L.S value and R.S. value but 
+(===) check L.S value and R.S. value as well as both sided data type.
+
+array and variable difference => variable can store singlr data at a time
+                             but array can store multiple value at a time.
+
+
+
+Javascript inbuilt method:- 
+
+1) cancat(): - this method combines two array together.
+2) push(): -
+3) pop(): - 
+4) indexOf(): -
+                             

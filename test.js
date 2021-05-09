@@ -75,7 +75,66 @@
 // let sum = (num1, num2) => num1 + num2;
 // let result = sum(4, "vivek");
 // console.log(result);
-let textformat = (str) => str[0].toUpperCase() + str.slice(1);
+// let textformat = (str) => str[0].toUpperCase() + str.slice(1);
 
 
-console.log(textformat("komal"));// Vijay
+// console.log(textformat("eomal"));// Vijay
+const doctors = [
+	{
+	  name: 'Doctor-1', state: 'Delhi', years: 12, coe: 'General',
+	},
+	{
+	  name: 'Doctor-2', state: 'Telangana', years: 15, coe: 'heart',
+	},
+	{
+	  name: 'Doctor-3', state: 'Delhi', years: 25, coe: 'general',
+	},
+	{
+	  name: 'Doctor-4', state: 'Mumbai', years: 21, coe: 'skin',
+	},
+	{
+	  name: 'Doctor-5', state: 'Delhi', years: 6, coe: 'skin',
+	},
+	{
+	  name: 'Doctor-6', state: 'Mumbai', years: 14, coe: 'lungs',
+	},
+	{
+	  name: 'Doctor-7', state: 'Delhi', years: 23, coe: 'heart',
+	},
+	{
+	  name: 'Doctor-8', state: 'Telangana', years: 10, coe: 'heart',
+	},
+	{
+	  name: 'Doctor-9', state: 'Delhi', years: 11, coe: 'heart',
+	},
+	{
+	  name: 'Doctor-10', state: 'Mumbai', years: 12, coe: 'heart',
+	},
+	{
+	  name: 'Doctor-11', state: 'Telangana', years: 13, coe: 'heart',
+	},
+	{
+	  name: 'Doctor-12', state: 'Delhi', years: 18, coe: 'heart',
+	},
+	{
+	  name: 'Doctor-13', state: 'Mumbai', years: 5, coe: 'heart',
+	},
+	{
+	  name: 'Doctor-14', state: 'Delhi', years: 4, coe: 'general',
+	},
+	{
+	  name: 'Doctor-15', state: 'Mumbai', years: 4, coe: 'lungs',
+	},
+	{
+	  name: 'Doctor-16', state: 'Delhi', years: 3, coe: 'heart',
+	},
+	{
+	  name: 'Doctor-17', state: 'Delhi', years: 2, coe: 'lungs',
+	},
+
+  ];
+doctors.forEach( (el, index) => el.id = index + 1);
+console.log(doctors);
+
+
+var value = [1,2,3,4,6,7];
