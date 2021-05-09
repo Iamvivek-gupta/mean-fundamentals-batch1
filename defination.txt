@@ -1,1 +1,6 @@
-abcd
+cancat(): this method combines two array together.
+push() : this method adds item to the end of an array , and changes the original array. 
+         push method return modified array size and lengh.
+
+ pop() : this method removes the element.
+ indexOf() :        
