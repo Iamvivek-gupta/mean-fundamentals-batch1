@@ -3,4 +3,24 @@ push() : this method adds item to the end of an array , and changes the original
          push method return modified array size and lengh.
 
  pop() : this method removes the element.
- indexOf() : it give perticular index details.       
+ indexOf() : it give perticular index details.
+
+ shift() : this method remove the first element from array , and return it.
+ let a = ["a","b","c"];
+ console.log();
+
+ unshift() : this method add one and more element at the begining of the array , and 
+     return length of modified array.
+
+slice() : this method copies a given part of an array and return a copied part as an new array.
+
+a.slice(start, end);
+
+splice() : This method changes an array , by adding and  removing the elements from array.
+splice(start index , deleted cound , added element);
+
+start index : here it is the starting point , from removing element in the array.
+
+deleted count : deleted count is the number of element to be deleted from that starting point.
+
+added element : this elements , to be added from the starting point. 
