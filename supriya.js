@@ -97,3 +97,41 @@ if(condition){
 //     reversre.push(original[i])
 // }
 // console.log(reversre);
+
+// let browser = ['chrome','mozila', 'opera', 'egde'];
+// console.log(browser.shift());
+// console.log(browser);
+
+// let browser = ['chrome','mozila', 'opera', 'egde'];
+// console.log(browser.unshift('UC browser','brew'));
+// console.log(browser);
+
+// let browser = ['chrome','mozila', 'opera', 'egde'];
+// // browser.slice(start, end)
+// let b = browser.slice();
+// console.log(b);
+
+// let message = 'congratulations';
+// let x = message.slice(0,7) + 's!';
+// console.log(x);
+
+// let nums = [1,2,3,4,9,6,7,8,9,9];
+// console.log(nums.splice(8,2));
+// console.log(nums);
+//splice(start, deletedcount, element)
+
+
+// function login(){
+//     return "hallo world"
+// }
+
+// let result = login();
+// console.log(result);
+
+// let login = () => "hallo world"
+
+// console.log(login());
+
+let mul = (num1, num2) => num1 + num2;
+
+console.log(mul(2,8));
