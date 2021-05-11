@@ -115,7 +115,7 @@ if(condition){
 // let x = message.slice(0,7) + 's!';
 // console.log(x);
 
-// let nums = [1,2,3,4,9,6,7,8,9,9];
+//let nums = [1,2,3,4,9,6,7,8,9,9];
 // console.log(nums.splice(8,2));
 // console.log(nums);
 //splice(start, deletedcount, element)
@@ -132,6 +132,54 @@ if(condition){
 
 // console.log(login());
 
-let mul = (num1, num2) => num1 + num2;
+// let mul = (num1, num2) => num1 + num2;
 
-console.log(mul(2,8));
+// console.log(mul(2,8));
+
+// let nums = [1,2,3,4,9,6,7,8,9,9];
+// let removedNine = [];
+// for(let i = 0; i < nums.length; i++){
+//     if(nums[i] !== 9){
+//         removedNine.push(nums[i]);
+//     }
+// }
+// console.log(removedNine);
+// let nums = [1,2,3,4,9,6,7,8,9,9];
+// let removedNine = [];
+// for(let number of nums){
+//     if(number != 9){
+//         removedNine.push(number)
+//     }
+// }
+// console.log(removedNine);
+// let status = "how are you today?";
+// console.log(status.split("a"));
+
+// let fruits = ["banana", "papaya", "apple", "grapes", "mongo"];
+// console.log(fruits.reverse());
+
+// let str = "hallo"; //"ollah"
+// let result = str.split("").reverse().join("");
+// console.log(typeof result);
+
+// Object in Javascript 
+let student = {
+    name: "komal",
+    gender: "female",
+    city: "delhi",
+    pincode: 667889
+}
+// console.log(Object.keys(student));
+// console.log(Object.values(student));
+
+student.rollNum = 01;
+student.divison = "abcd";
+delete student.divison;
+console.log(typeof student);
+
+let arr = [1,"hallo", true, undefined, null, {name:"vivek"}]
+
+// [1,2,3,4,5,7,8,9]
+// [1,2,3,6,7,8,9]  find the missing element
+// "lotus" // "Lotus"
+// [1,2,1,3,4,6,4,2]
