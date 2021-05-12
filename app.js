@@ -17,61 +17,128 @@
 // git push -u origin main
 //
 
+// Rulse to declaration variables
+// i) variables contain letter number underscore and dollor symbol
+// ii) can not start with number
+// iii) can't use let var const keyword
 
+// let name = "codex";
+// console.log(name);
+
+
+// https://github.com/Iamvivek-gupta/mean-fundamentals-batch1
+
+//  git init
+// git add README.md
+// git commit -m "first commit"
+// git branch -M main
+// git remote add origin https://github.com/Iamvivek-gupta/mean-fundamentals-batch1.git
+// git push -u origin main
+
+// declaration assignment operator assign a value
+// var firstName = "code";
+// var lastName = "x";
+
+// var intro = "hi my name is " + firstName + lastName;
+// console.log(intro);
+
+// ==,  === (comparison operator)
+// var val1 = 7;
+// var val2 = "8";
+// console.log(val1 == val2);
+
+// == (checks only asigned value)
+// == (checks both asigned value and datatype)
+
+// Boolean 
+
+// var status = "false";
+// console.log(typeof status);
+
+//console.log( 1 == true);
+
+// var value = null;
+// console.log(value);
+
+// var name1;
+// console.log(typeof name1);
+
+//console.log(null == undefined);
+
+// Arithmetic Operator
+// var x = 14;
+// var y = "hi";
+// var sub = x - y;
+// console.log(typeof sub);
+
+
+// var x = 2*2+2;
+// var y = 2*(2+2)
+// console.log(x, y);
+
+// var name = ["komal",true, 2, null, undefined];
+// console.log(typeof name);
+// Arithmatic Operator
+
+
+//console.log(20 <= 20);
 
 // condition
-//java scrip if else statement is used to execute code wether condition is true or false
 
-//     1. if statement
 
-//      if(expression)
-//     {
- //   content to be executed
-///    }
+//1. if statement
 
-//if (-5 >-6){
-    //console.log("hello vijay");
-//}
+        // if(expression){
+        //    content to be executed
+        //   }
 
-/// if Else statement
 
-// if(expression)
-//{
- //   content to be executed
-//}else
-//{
-    //content to be executed
-//}
+// if(-5 < -6){
+//     console.log("hallo vijay");
+// }    
 
-//if (-5 < -6)
-//{
-    //console.log("hello vijay");
-//  }
-//else{
-  //  console.log("hello  codex");
-//}
+// 2. if else statement
+// syntax
+// if(expression){
+//     content to be execute
+// } else {
+//     content to be executed
+// }
+// if(-5 < -6){
+//     console.log("hallo vijay");
+// } else {
+//     console.log("halo Codex");
+// }
 
-//   3. else if statement
-//if (expression){
-   // conetct to be executed
-//}else if(expression)
-//{
-  //  contect to be executed
 
-//}
+// 3. else if statement
 
-//else {
-  //  content to be executed
-//}
+// if(expression){
+//     content to be executed
+// } else if(expression){
+//     content to be executed
+// } else {
+//     content to be executed
+// }
 
-//% remainder and /n
- ///2,4,6,8,10 
+// var a = 10;
+// var b = 20;
+// if(b > b){
+//     console.log("hallo Komal");
+// } else if( b < a) {
+//   console.log("hallo vijay");
+// } else{
+//     console.log("hallo vedant");
+// }
+// 2,4,6,8,10
+// var a = 4;
+// if (a%2===0){
+//     console.log("given number is even " + a);
+// } else {
+//     console.log("given number is odd " + a);
+// }
 
-//evan and odd 
-//var a=3 
-//node
 
-//// """"""Home work"""""""""""""
 
 // var a=20;  
 // if(a==10){  
@@ -85,21 +152,6 @@
 // }  
 // else{  
 //     console.log("a is not equal to 10, 15 or 20");  
-// }
-
-
-
-
-
-var b=[1,2,3,4,5,6];
-var rev=[];
-
-for (var i = b.length - 1; i >= 0; i--) {
-    console.log (rev[i]);
-}
-
-console.log(max);
-=======
 // } 
 
 
@@ -178,7 +230,6 @@ console.log(max);
 // console.log(factorial);
 
 //var arr = [1,2,3,4,5,6]
->>>>>>> 002b288d2083dd6da715e34682d934265f838c2a
 
 
 // var number = 0;
@@ -193,5 +244,96 @@ console.log(max);
 // }
 
 
+// 12 = 1,2,3,4,6,12
+// let number = 20;
+// let factor = [];
+// for(let i = 1; i <= number; i++ ){
+//     if(number % i === 0){
+//         factor.push(i);
+//     }
+// }
+// console.log(factor);
 
+// fuction
+// getName(4, 6);
+// function getName(a,b){
+//     let sum = a + b;
+//     console.log(sum);
+// }
+
+
+// let getname = function(a,b){
+//     let sum = a + b;
+//     console.log(sum);
+// }
+
+// function factorial(n){
+//     var fact = 1;
+//     for(i=n; i>= 1; i--){
+//         fact = fact * i
+//     }
+//     console.log(fact);
+// }
+
+// factorial(7)
+
+// var name = "vijay is smart boy";
+// console.log(name.length);
+// var a = 5;
+// var b = 8;
+// a = a+b;
+// b = a - b;
+// a = a - b;
+// console.log(a,b);
+// var a = [1,2,3,4];
+// [a[0], a[1], a[2],a[3]] = [a[1], a[0],a[3], a[2]];
+// console.log(a);
+// var d = [1,3,4,6,7,3,3,54,6,7];
+// console.log(d.includes(9));
+
+
+
+// javascript Object
+// how to check an object is empty
+
+// properties and keys are same.
+// var person = {
+//         name: "vijay",
+//         age: 25,
+//         city: "nasik"
+// }
+// console.log(Object.keys(person));
+// console.log(Object.values(person));
+// let properties = Object.keys(person);
+// console.log(properties.length);
+
+// person.age = 20
+// person['age'] = 30
+// person.gender = "male";
+// delete person.gender;
+// console.log(person);
+
+// var person = ["vijay", 25, {city: "nashik"}]
+// person[2] = 3;
+// console.log(person);
+
+// var a = [1,2,3,1,3,4,5,6,4];
+// console.log([...new Set(a)]);
+// var x = [1, -4, 6.1, 0.1, 2.6, 5, -2, 1.9, 6, 8.75, -7, 5]; 
+// var positiveEle = [];
+// for(let i = 0; i < x.length; i++){
+//         if(x[i]>0 && x[i]%1===0){
+//                 positiveEle.push(x[i]);
+//         }
+// }
+// console.log(positiveEle);
+
+var a = [1,2,3,1,3,4,5,6,4];
+var b = [];
+for(let i = 0; i < a.length; i++){
+        if(b.indexOf(a[i]) === -1){
+                b.push(a[i])
+        }
+}
+console.log(b);
 
