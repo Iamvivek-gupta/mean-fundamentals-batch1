@@ -163,23 +163,53 @@ if(condition){
 // console.log(typeof result);
 
 // Object in Javascript 
-let student = {
-    name: "komal",
-    gender: "female",
-    city: "delhi",
-    pincode: 667889
-}
-// console.log(Object.keys(student));
-// console.log(Object.values(student));
+// let student = {
+//     name: "komal",
+//     gender: "female",
+//     city: "delhi",
+//     pincode: 667889
+// }
+// // console.log(Object.keys(student));
+// // console.log(Object.values(student));
 
-student.rollNum = 01;
-student.divison = "abcd";
-delete student.divison;
-console.log(typeof student);
+// student.rollNum = 01;
+// student.divison = "abcd";
+// delete student.divison;
+// console.log(typeof student);
 
-let arr = [1,"hallo", true, undefined, null, {name:"vivek"}]
+// let arr = [1,"hallo", true, undefined, null, {name:"vivek"}]
 
-// [1,2,3,4,5,7,8,9]
-// [1,2,3,6,7,8,9]  find the missing element
-// "lotus" // "Lotus"
-// [1,2,1,3,4,6,4,2]
+// // [1,2,3,4,5,7,8,9]
+// // [1,2,3,6,7,8,9]  find the missing element
+// // "lotus" // "Lotus"
+// // [1,2,1,3,4,6,4,2]
+// // [1,2,3,4,6] //16, 21
+// let a = [1,2,3,4,5,6,7,8,9,10,12];
+// let n = a.length + 1;
+// // let sum = n*(n+1)/2;
+// // console.log(sum);
+// let sum = 0;
+// for(let i = 1; i <= n; i++){
+//     sum = sum + i;
+// }
+// console.log(sum);
+// let add = 0;
+// for(let number of a){
+//     add = add + number;
+// }
+// console.log(add);
+// let missing = sum - add;
+// console.log(missing);
+// let x = [1,2,3,6,7,8,9,12,15];// max -> 1 to max
+// let max = Math.max(...x);
+// let missing = [];
+// for(let i = 1; i <= max; i++){
+//     if(x.indexOf(i) === -1){
+//         missing.push(i)
+//     }
+// }
+// console.log(missing);
+
+let word = "lotus is flower"; //
+let titleCase = word[0].toUpperCase() + word.slice(1);
+console.log(titleCase);
