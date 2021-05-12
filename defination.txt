@@ -32,5 +32,21 @@ Java script inbuild method
 
                Output: 4
 
+   5. shift():- this method removed the 1st element and retrun its 
 
+
+   6.unshift():- this method add one and more element at the begining of the array and reteuns 
+   the modifred lenght and array.
                     
+   7.slice():-this method copy and reteun copy path as an array                 
+   syntax:  slice(start , end)
+
+   8.splice():-this method changes and addind removed the element from array
+   start(here its the starting poing from removed in array)
+   delete(delete the count is the element from that starting point)
+   add(this element to be added from the starting point)
+   
+   9.split():- this method use to split a string and array of sub string and retrun the new array
+
+   10.Join():- the join method retrun the array as string , the element sperate the a specifired the seprater 
+   default seprater is ,

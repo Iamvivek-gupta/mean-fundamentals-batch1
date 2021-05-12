@@ -3,172 +3,75 @@
 // ii) can not start with number
 // iii) can't use let var const keyword
 
-//  let name = "codex";
+//let name = "codex";
 //console.log(name);
+
+
 // https://github.com/Iamvivek-gupta/mean-fundamentals-batch1
 
-// git init
+//  git init
 // git add README.md
 // git commit -m "first commit"
 // git branch -M main
 // git remote add origin https://github.com/Iamvivek-gupta/mean-fundamentals-batch1.git
 // git push -u origin main
+//
 
 
 
-//  condition
-//  java scrip if else statement is used to execute code wether condition is true or false
+// condition
+//java scrip if else statement is used to execute code wether condition is true or false
 
 //     1. if statement
 
 //      if(expression)
 //     {
-//   content to be executed
-//     }
+ //   content to be executed
+///    }
 
-//  if (-5 >-6){
-//   console.log("hello vijay");
-//    }
+//if (-5 >-6){
+    //console.log("hello vijay");
+//}
 
-// if Else statement
+/// if Else statement
 
 // if(expression)
-// {
-//   content to be executed
-// }else
-// {
+//{
+ //   content to be executed
+//}else
+//{
     //content to be executed
-// }
-// example
-// if (-5 < -6)
-// {
-//console.log("hello vijay");
+//}
+
+//if (-5 < -6)
+//{
+    //console.log("hello vijay");
 //  }
 //else{
-//  console.log("hello  codex");
+  //  console.log("hello  codex");
 //}
 
 //   3. else if statement
-// if (expression){
-// conetct to be executed
+//if (expression){
+   // conetct to be executed
 //}else if(expression)
 //{
-//  contect to be executed
-//}
-// else {
-//  content to be executed
+  //  contect to be executed
+
 //}
 
-// % remainder and /n
-//2,4,6,8,10 
+//else {
+  //  content to be executed
+//}
+
+//% remainder and /n
+ ///2,4,6,8,10 
+
 //evan and odd 
 //var a=3 
 //node
+
 //// """"""Home work"""""""""""""
-
-// declaration assignment operator assign a value
-// var firstName = "code";
-// var lastName = "x";
-
-// var intro = "hi my name is " + firstName + lastName;
-// console.log(intro);
-
-// ==,  === (comparison operator)
-// var val1 = 7;
-// var val2 = "8";
-// console.log(val1 == val2);
-
-// == (checks only asigned value)
-// == (checks both asigned value and datatype)
-
-// Boolean 
-
-// var status = "false";
-// console.log(typeof status);
-
-//console.log( 1 == true);
-
-// var value = null;
-// console.log(value);
-
-// var name1;
-// console.log(typeof name1);
-
-//console.log(null == undefined);
-
-// Arithmetic Operator
-// var x = 14;
-// var y = "hi";
-// var sub = x - y;
-// console.log(typeof sub);
-
-
-// var x = 2*2+2;
-// var y = 2*(2+2)
-// console.log(x, y);
-
-// var name = ["komal",true, 2, null, undefined];
-// console.log(typeof name);
-// Arithmatic Operator
-
-
-//console.log(20 <= 20);
-
-// condition
-
-
-//1. if statement
-
-        // if(expression){
-        //    content to be executed
-        //   }
-
-
-//if(-5 < -6){
-   // console.log("hallo vijay");
-//}    
-
-// 2. if else statement
-// syntax
-// if(expression){
-//     content to be execute
-// } else {
-//     content to be executed
-// }
-// if(-5 < -6){
-//     console.log("hallo vijay");
-// } else {
-//     console.log("halo Codex");
-// }
-
-
-// 3. else if statement
-
-// if(expression){
-//     content to be executed
-// } else if(expression){
-//     content to be executed
-// } else {
-//     content to be executed
-// }
-
-// var a = 10;
-// var b = 20;
-// if(b > b){
-//     console.log("hallo Komal");
-// } else if( b < a) {
-//   console.log("hallo vijay");
-// } else{
-//     console.log("hallo vedant");
-// }
-// 2,4,6,8,10
-// var a = 4;
-// if (a%2===0){
-//     console.log("given number is even " + a);
-// } else {
-//     console.log("given number is odd " + a);
-// }
-
 
 // var a=20;  
 // if(a==10){  
@@ -188,17 +91,15 @@
 
 
 
-//var array = [10, 25, 2, 150, 38, 125, 89, 32];
-//var max= [0];
+var b=[1,2,3,4,5,6];
+var rev=[];
 
-//for (var i=0; i<=array.length;i++){
-//    if (array[i]>=max) {
-//        var max=array[i];
-  //  }
-//}
+for (var i = b.length - 1; i >= 0; i--) {
+    console.log (rev[i]);
+}
 
-//console.log(max);
-
+console.log(max);
+=======
 // } 
 
 
@@ -277,6 +178,7 @@
 // console.log(factorial);
 
 //var arr = [1,2,3,4,5,6]
+>>>>>>> 002b288d2083dd6da715e34682d934265f838c2a
 
 
 // var number = 0;
@@ -291,131 +193,5 @@
 // }
 
 
-// 12 = 1,2,3,4,6,12
-// let number = 20;
-// let factor = [];
-// for(let i = 1; i <= number; i++ ){
-//     if(number % i === 0){
-//         factor.push(i);
-//     }
-// }
-// console.log(factor);
-
-// fuction
-// getName(4, 6);
-// function getName(a,b){
-//     let sum = a + b;
-//     console.log(sum);
-// }
 
 
-// let getname = function(a,b){
-//     let sum = a + b;
-//     console.log(sum);
-// }
-
-//function factorial(n){
-   // var fact = 1;
-   // for(i=n; i>= 1; i--){
-   //     fact = fact * i
-  //  }
-  //  console.log(fact);
-
-//}
-
-//factorial(7)
-//var name="komal";
-
-//fuction(name)
-//{
- // console.log(name+"join sucessfully");
-//}
-//name()
-//Name("komal");
- //function Name()
- //{
-  // var s='komal';
-  
- // console.log(s + " join succesfully ");
- //}
- //Name()
-
-
-/* check if all object items having expeirence more than 10 years */
-
- const doctors = [
-	{
-	  name: 'Doctor-1', state: 'Delhi', years: 12, coe: 'General',
-	},
-	{
-	  name: 'Doctor-2', state: 'Telangana', years: 15, coe: 'heart',
-	},
-	{
-	  name: 'Doctor-3', state: 'Delhi', years: 25, coe: 'general',
-	},
-	{
-	  name: 'Doctor-4', state: 'Mumbai', years: 21, coe: 'skin',
-	},
-	{
-	  name: 'Doctor-5', state: 'Delhi', years: 6, coe: 'skin',
-	},
-	{
-	  name: 'Doctor-6', state: 'Mumbai', years: 14, coe: 'lungs',
-	},
-	{
-	  name: 'Doctor-7', state: 'Delhi', years: 23, coe: 'heard'}
-  ]
-
-  var hightestyears=[];
-  
-    for(let i=0;i<doctors.length;i++)
-{
-  if(doctors[1].years< 10){
-    hightestyears.push(doctors[i].name)
-  }
-}
-  
-  console.log(doctors);
-
-
-
-  
-
-/* check if atleast one object item having expeirence less than 5 years */
-
-const doctors1 = [
-	{
-	  name: 'Doctor-1', state: 'Delhi', years: 12, coe: 'General',
-	},
-	{
-	  name: 'Doctor-2', state: 'Telangana', years: 15, coe: 'heart',
-	},
-	{
-	  name: 'Doctor-3', state: 'Delhi', years: 25, coe: 'general',
-	},
-	{
-	  name: 'Doctor-4', state: 'Mumbai', years: 21, coe: 'skin',
-	},
-	{
-	  name: 'Doctor-5', state: 'Delhi', years: 6, coe: 'skin',
-	},
-	{
-	  name: 'Doctor-6', state: 'Mumbai', years: 14, coe: 'lungs',
-	},
-	{
-	  name: 'Doctor-7', state: 'Delhi', years: 23, coe: 'heard'}
-  ];
-
-  let a=[];
-
-  for(let i=0; i<doctors1.length; i++)
-  {
-    if(doctors1[i].years < 10){
-      a.push(doctors1[i].name)
-    }
-
-  }
-console.log(a);
-
-var a1 = [1,2,3,4,5]; 
- console.log(a1.indexOf(5));
