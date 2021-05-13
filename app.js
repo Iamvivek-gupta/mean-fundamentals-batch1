@@ -328,12 +328,5 @@
 // }
 // console.log(positiveEle);
 
-var a = [1,2,3,1,3,4,5,6,4];
-var b = [];
-for(let i = 0; i < a.length; i++){
-        if(b.indexOf(a[i]) === -1){
-                b.push(a[i])
-        }
-}
-console.log(b);
+
 
