@@ -17,9 +17,16 @@ console.log(word);
 result = word.split(" ");
 console.log(result);
 for (var i = 0; i < result.length; i++) {
-  result[i] = result[i].charAt(0).toUpperCase() + result[i].slice(1); 
+  result[i] = result[i].charAt(0).toUpperCase() + result[i].slice(1,2); 
 }
 console.log(result);
 
-
-  
+/*******************removed element************* */
+// var nums=[1,2,3,4,5,6,7];
+// let removedElement=function(nums,value)
+// {
+// let start= nums.indexOf(value);
+// nums.splice(start,1);
+// return(nums);
+// }
+//   console.log(removedElement(nums,6));
