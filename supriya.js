@@ -163,12 +163,7 @@ if(condition){
 // console.log(typeof result);
 
 // Object in Javascript 
-// let student = {
-//     name: "komal",
-//     gender: "female",
-//     city: "delhi",
-//     pincode: 667889
-// }
+
 // // console.log(Object.keys(student));
 // // console.log(Object.values(student));
 
@@ -210,6 +205,68 @@ if(condition){
 // }
 // console.log(missing);
 
-let word = "lotus is flower"; //
-let titleCase = word[0].toUpperCase() + word.slice(1);
-console.log(titleCase);
+// let word = "lotus is flower"; //
+// let titleCase = word[0].toUpperCase() + word.slice(1);
+// console.log(titleCase);
+
+// let student = {
+//     name: "komal",
+//     gender: "female",
+//     city: "delhi",
+//     pincode: 667889
+// }
+
+// // Object.freeze(student);
+// Object.seal(student);
+// delete student['name'];
+// console.log(student);
+
+// function in javascript
+
+// login("supriya");
+// function login(name){
+//     console.log(name + " " + "login succefully");
+// }
+
+
+// let login = function(name){
+//     return (name + " login succesfully");
+// }
+
+// let login = (name) => console.log(name + " login succesfully");
+
+//login("komal");
+
+// let add = (a,b) => a + b;
+
+// let result = add(5,6); //11
+// console.log(result);
+// var nums = [1,2,3,4,5,6,7];
+// let removedElement = function(arr, value){
+//     let start = arr.indexOf(value);
+//     arr.splice(start, 1);
+//     return arr;
+// }
+
+// console.log(removedElement(nums, 6));
+for(let i = 1; i < 16; i++){
+    console.log(i);
+}
+//divisible by 3 "fizz"
+//divisible by 5 "buzz"
+//divisible by 3 & 5 "fizzbuzz"
+// 1
+// 2
+// fizz
+// 4
+// buzz
+// fizz
+// 7
+// 8
+// fizz
+// buzz
+// 11
+// fizz
+// 13
+// 14
+// fizzbuzz
