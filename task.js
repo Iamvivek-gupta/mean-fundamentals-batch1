@@ -12,14 +12,14 @@
 
 
 /***************** UpperCase *******************/
-let word = "lotus is flower"; 
-console.log(word);
-result = word.split(" ");
-console.log(result);
-for (var i = 0; i < result.length; i++) {
-  result[i] = result[i].charAt(0).toUpperCase() + result[i].slice(1,2); 
-}
-console.log(result);
+// let word = "lotus is flower"; 
+// console.log(word);
+// result = word.split(" ");
+// console.log(result);
+// for (var i = 0; i < result.length; i++) {
+//   result[i] = result[i].charAt(0).toUpperCase() + result[i].slice(1,2); 
+// }
+// console.log(result);
 
 /*******************removed element************* */
 // var nums=[1,2,3,4,5,6,7];
@@ -30,3 +30,20 @@ console.log(result);
 // return(nums);
 // }
 //   console.log(removedElement(nums,6));
+
+/***********************fizz and buzz***********************/
+
+for(let i=1;i<16;i++){
+  
+if(i%15==0){
+    console.log("fizzbuzz");
+}
+ else if (i%3==0) {
+  console.log("fizz");
+} else if(i%5==0){
+ console.log("buzz" );
+ }
+ else{
+   console.log(i);
+ }
+}
