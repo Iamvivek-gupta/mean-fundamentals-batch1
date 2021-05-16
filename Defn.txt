@@ -1,0 +1,52 @@
+javascrit inbuild method
+1) concat()
+this method combines two array together 
+
+2) push()
+this methods adds item to the end of array
+and changes the origional array. push method return modieid array length
+
+3) pop()
+
+this ued to remove last element array and return removed element
+4) index of()
+this used
+
+
+5 shift:- 
+        this method removed first element in the array and return it.
+6)unshift:- 
+        this method add one or more element at the begining of array and retuned length 
+        or modified array
+
+7)slice:- 
+    this method copies and return that copied part as an new array
+    slice(start(1)),end(3)
+
+8)splice:-
+        this method chnges of array adding and removing elemnts from array.
+        syntax(splice(start,deletedcount,add))
+
+deletedcount:
+    it is number of element to be deleted from that starting point
+    added: this elements to be added starting point...
+
+9) split:-
+      this method used to split a string and array of substring and return the 
+      new array.
+
+10)join:-
+      the join method retuen the array as string the element will be sepreted array  default 
+      sepreter as,
+      
+11)freeze & sealed:-
+        freeze and sealed method are used to create non extensible object in javascrit
+        
+       object.seal() allow change to the exiciting properties of at the object where as
+        object.freee() does not allow it makes an object imute to everything 
+
+
+function():
+
+
+
