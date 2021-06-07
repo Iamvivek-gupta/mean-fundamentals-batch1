@@ -328,5 +328,10 @@
 // }
 // console.log(positiveEle);
 
+let fn = "vijay";
+let ln = "supriya";
+let m = "";
+console.log("hello my name is "+ fn +"welcome familly codex "+ ln);
+
 
 
