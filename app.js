@@ -16,13 +16,14 @@
 // git remote add origin https://github.com/Iamvivek-gupta/mean-fundamentals-batch1.git
 // git push -u origin main
 
-// declaration assignment operator assign a value
+//declaration assignment operator assign a value
 // var firstName = "code";
 // var lastName = "x";
 
 // var intro = "hi my name is " + firstName + lastName;
 // console.log(intro);
-
+// console.log(typeof null);
+// console.log(2 - "2");
 // ==,  === (comparison operator)
 // var val1 = 7;
 // var val2 = "8";
@@ -309,11 +310,78 @@
 // }
 // console.log(positiveEle);
 
-var a = [1,2,3,1,3,4,5,6,4];
-var b = [];
-for(let i = 0; i < a.length; i++){
-        if(b.indexOf(a[i]) === -1){
-                b.push(a[i])
-        }
+// var a = [1,2,3,1,3,4,5,6,4];
+// var b = [];
+// for(let i = 0; i < a.length; i++){
+//         if(a[i] >= 3){
+//                 b.push(a[i])
+//         }
+// }
+// console.log(b);
+// var a = [1,2,3,1,3,4,5,6,4];
+// console.log(a.splice(0, 2, 7,8,9));
+// console.log(a);
+
+// callback function
+
+// function a(friend, c){
+//         console.log(`hallo vijay your gf ${friend} is waiting`);
+//         c();
+// }
+
+// function b(){
+//         console.log(`function b is calling`);
+// }
+
+// a('pooja', b);
+
+// let area = radius => radius * radius * Math.PI;
+// let diameter = radius => radius * 2;
+// let perimeter = radius => radius * 2 * Math.PI;
+// var radius = [1,2,3,4];
+// function calculate(radius, d){
+//         let output =[];
+//         for(let i = 0 ; i < radius.length; i++){
+//                 output.push(d(radius[i]));
+//         }
+//         return output;
+// }
+
+
+// console.log(calculate(radius, area));
+// console.log(calculate(radius, diameter));
+// console.log(calculate(radius, perimeter));
+
+// function calculateDiameter(radius){
+//         let output =[];
+//         for(let i = 0 ; i < radius.length; i++){
+//                 output.push(radius[i] * 2)
+//         }
+
+//         return output;
+// }
+
+// console.log(calculateDiameter(radius));
+
+
+// function calculatePerimeter(radius){
+//         let output =[];
+//         for(let i = 0 ; i < radius.length; i++){
+//                 output.push(radius[i] * 2 * Math.PI)
+//         }
+
+//         return output;
+// }
+
+// console.log(calculatePerimeter(radius));
+let call = function(){
+        console.log("hallo world");
 }
-console.log(b);
+setTimeout(call, 0)
+console.log("hallo supriya")
+
+
+// setInterval(() => {
+//         console.log("haloo vijay");
+// }, 1000);
+

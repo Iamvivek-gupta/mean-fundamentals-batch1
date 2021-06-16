@@ -249,24 +249,26 @@ if(condition){
 // }
 
 // console.log(removedElement(nums, 6));
-for(let i = 1; i < 16; i++){
-    console.log(i);
-}
-//divisible by 3 "fizz"
-//divisible by 5 "buzz"
-//divisible by 3 & 5 "fizzbuzz"
-// 1
-// 2
-// fizz
-// 4
-// buzz
-// fizz
-// 7
-// 8
-// fizz
-// buzz
-// 11
-// fizz
-// 13
-// 14
-// fizzbuzz
+// for(let i = 1; i < 16; i++){
+//     if(i%3===0 && i%5===0){
+//         console.log("fizzbuzz");
+//     } else if(i % 3 === 0){
+//         console.log("fizz");
+//     } else if(i%5===0){
+//         console.log("buzz");
+//     } else{
+//         console.log(i);
+//     }
+// }
+
+//postman, github
+
+// function factorial(n){
+//     let mul = 1;
+//     for(let i = n; i >= 1; i--){
+//         mul = mul * i;
+//     }
+//     return mul;
+// }
+// let result = factorial(3);
+// console.log(result);
