@@ -374,14 +374,64 @@
 // }
 
 // console.log(calculatePerimeter(radius));
-let call = function(){
-        console.log("hallo world");
-}
-setTimeout(call, 0)
-console.log("hallo supriya")
+// let call = function(){
+//         console.log("hallo world");
+// }
+// setTimeout(call, 0)
+// console.log("hallo supriya")
 
 
 // setInterval(() => {
 //         console.log("haloo vijay");
 // }, 1000);
 
+// callback hell
+// function get1(name, err){
+//         console.log(`hallo my name is ${name}`);
+//         if(!err){
+//                 function get2(name2, err2){
+//                         console.log(`hallo my name is ${name2}`);
+//                         if(!err2){
+//                                 function get3(name3, err3){
+//                                         console.log(`hallo my name is ${name3}`);
+//                                 }
+//                         }
+//                 }
+//         }
+// }
+
+
+// setTimeout( () => {
+//         console.log("api is calling");
+//         let roll_no = [1,2,3,4,5,6,7,8,9];
+//         setTimeout( (roll) => {
+//                 let student = {
+//                         name: "komal",
+//                         age: 4
+//                 }
+//                 console.log(`my roll number is ${roll} Hi my name is ${student.name} and I am ${student.age} year old`);
+//                 setTimeout( (gender) => {
+//                         console.log(`my gender is ${gender}`);
+//                         console.log(student);
+//                 }, 2000, student.gender="female")
+//         },5000, roll_no[1])
+// }, 2000)
+
+
+// let fruits = ["mango", "banana", "grapes"];
+// fruits.forEach((e, i) => console.log(e, "position is" + i));
+// let number = [1,2,3,4];
+// number.forEach(e => console.log(e * e));
+
+let number = [1,2,3,4,5,6,7,8,9,9,9];
+let result = number.filter(e => e >= 9);
+console.log(result);
+
+let doctors = [
+        {"name":"vijay", "experience":20,"city":"nasik"},
+        {"name":"komal", "experience":30,"city":"pune"},
+        {"name":"supriya", "experience":40,"city":"kalyan"}
+]
+
+let final = doctors.filter(e => e.experience > 20);
+console.log(final);
