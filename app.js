@@ -423,15 +423,93 @@
 // let number = [1,2,3,4];
 // number.forEach(e => console.log(e * e));
 
-let number = [1,2,3,4,5,6,7,8,9,9,9];
-let result = number.filter(e => e >= 9);
-console.log(result);
+// let number = [1,2,3,4,5,6,7,8,9,9,9];
+// let result = number.filter(e => e >= 9);
+// console.log(result);
 
-let doctors = [
-        {"name":"vijay", "experience":20,"city":"nasik"},
-        {"name":"komal", "experience":30,"city":"pune"},
-        {"name":"supriya", "experience":40,"city":"kalyan"}
-]
+// let doctors = [
+//         {"name":"vijay", "experience":20,"city":"nasik"},
+//         {"name":"komal", "experience":30,"city":"pune"},
+//         {"name":"supriya", "experience":40,"city":"kalyan"}
+// ]
 
-let final = doctors.filter(e => e.experience > 20);
-console.log(final);
+// let final = doctors.filter(e => e.experience > 20);
+// console.log(final);
+
+// Promises in JS
+
+// let p1 = new Promise(function(resolve, reject){
+//         if(2==='2'){
+//                 resolve("hallo world");
+//         } else{
+//                 reject("something went wrong");
+//         }
+// })
+
+
+// p1.then(function(data){
+//         console.log(data);
+// }).catch(function(err){
+//         console.log(err);
+// })
+
+// let p1 = new Promise((resolve, reject) => {
+//         if(2==='2'){
+//                 resolve("hallo world");
+//         } else{
+//                 reject("something went wrong");
+//         }
+// })
+
+
+// p1.then((data) =>{
+//         console.log(data);
+// }).catch((err) =>{
+//         console.log(err);
+// })
+
+let roll_no = new Promise((resolve, reject) => {
+        setTimeout(() => {
+                let rollNum = [1,2,3,4,5,6,7];
+                resolve(rollNum);
+        }, 2000)
+})
+
+let bio_data = (rollIndex) => {
+        return new Promise( (resolve, reject) => {
+                setTimeout( (rollIndex) => {
+                        console.log(rollIndex);
+                        let students = {
+                                name: "vivek",
+                                age: 8
+                        }
+                        reject(`hallo my roll number is ${rollIndex} myself ${students.name} and i am ${students.age}`);
+                }, 2000, rollIndex)
+        })
+}
+
+
+async function getdata(){
+        try{
+                console.log("try block here");
+                let roll = await roll_no;
+                console.log(roll)
+                let bio = await bio_data(roll[2]);
+                console.log(bio);
+        } catch(e){
+                console.log("catch block here");
+                console.log(e);
+        }
+}
+getdata();
+
+// roll_no.then(data => {
+//         console.log(data);
+//         bio_data(data[2]).then(biodata => {
+//                 console.log(biodata);
+//         }).catch(err2 => {
+//                 console.log(err2);
+//         })
+// }).catch(err => {
+//         console.log(err);
+// })
